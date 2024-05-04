@@ -25,5 +25,18 @@ public class Main {
         int Discount = (totalPrice/100)*5;
         System.out.println("Velikost slevy "+Discount);
         System.out.println("Celková cena po započtení slevy 5% je " +(totalPrice - Discount + shippingPrice) +"Kč");
+
+        if (isDiscounted)
+        {
+            System.out.println("Máte nárok na slevu");
+        } else {
+            System.out.println("nemáte nárok na slevu");
+        }
+
+        int count= 3;
+        for (int i=0; i < count; i++){
+            System.out.println("trekové boty sedmimílovky");
+        }
+
     }
 }
